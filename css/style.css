@@ -351,8 +351,8 @@
 
 .white {
 	background-color: #fff;
-	position: absolute;
-	right: 430px;
+	position: relative;
+	right: -23px;
 	-webkit-box-shadow: 20px 0px 61px -12px rgba(0,0,0,0.74);
 	-moz-box-shadow: 20px 0px 61px -12px rgba(0,0,0,0.74);
 	box-shadow: 20px 0px 61px -12px rgba(0,0,0,0.74);
@@ -861,3 +861,538 @@ input {
 	background: url(../img/fifth-bg.jpg);
 	background-size: cover;
 }
+
+.section11 {
+	background: #fff;
+}
+
+.quote {
+	width: 79px;
+	height: 65px;
+	margin: 46px auto 60px;
+	background: url(../img/“.png) no-repeat;
+}
+
+.sl_text_p {
+	font: 18px 'Open Sans', sans-serif;
+	color: #282528;
+	text-align: center;
+	width: 97%;
+	margin: 0 auto;
+}
+
+.sl_img {
+	width: 100px;
+	height: 100px;
+	margin: 55px auto 30px;
+	background: url(../img/women-for-slide.png);
+}
+
+.sl_span {
+	font:700 16px "Open Sans", sans-serif;
+	text-align: center;
+	display: block;
+	color: #282528;
+}
+
+.sl_p {
+	font:600 13px "Open Sans", sans-serif;
+	text-align: center;
+	display: block;
+	color: #646464;
+}
+
+.sl_p_span {
+	margin: 0 0 80px 0;
+}
+
+.section12 {
+	background: url(../img/bg-with-question.jpg) no-repeat 80% 0;
+	background-size: cover;
+}
+
+.question {
+	background: #E5E2DE;
+	margin: 16px 0;
+	padding: 0px 60px 20px;
+	border-radius: 10px;
+}
+
+.block_question {
+	padding: 60px 0;
+}
+
+.question_p, .question_p2 {
+	font:600 16px "Open Sans", sans-serif;
+	color: #4E4E46;
+	position: relative;
+	cursor: pointer;
+}
+
+.answer_p {
+	font: 14px "Open Sans", sans-serif;
+	color: #585850;
+}
+
+.answer {
+	padding: 15px 30px;
+}
+
+.answer_p {
+	width: 80%;
+}
+
+.question_p:before {
+	content: '';
+	display: block;
+	width: 12px;
+	height: 18px;
+	background: url(../img/question.png);
+	position: relative;
+	left: -35px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.question_p:after  {
+	content: '';
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/plus.png);
+	position: absolute;
+	left: 102%;
+	top: 20px;
+	cursor: pointer;
+}
+
+.some-div, 
+.some-div2,
+.some-div3,
+.some-div4,
+.some-div5 {
+	display: none;
+}
+
+.some-div {
+	display: block;
+} 
+
+.text-trigger4 p {
+	width: 80%;
+}
+
+.text_left {
+	width: 35%;
+	float: left;
+	font: 16px "Open Sans", sans-serif;
+	color: #4E4E46;
+	margin-right: 10%;
+}
+
+.input_right {
+	width: 55%;
+	float: left;
+}
+
+.question_header {
+	font: 24px 'calibri', sans-serif;
+	color: #4E4E46;
+	padding-bottom: 15px;
+}
+
+.some_input1 input,
+.some_input2 input,
+.some_input3 input,
+.some_input4 input {
+	width: 100%;;
+	border: none;
+	border-bottom:  1px solid #BEBEBE;
+	background: #EEEEEE;
+	color: #A4A9AE;
+}
+
+.p_input {
+	font: 13px "Open Sans", sans-serif;
+	color: #A4A9AE;
+	padding-top: 30px; 
+}
+
+.some_input4 input {
+	width: 50%;
+	background: #9AB6B9;
+	color: #fff;
+	font: 16px "Open Sans", sans-serif;
+	letter-spacing: 1px;
+	border-radius: 40px;
+	margin: 50px 0 60px;
+	padding: 20px 0;
+	cursor: pointer;
+}
+
+.video_text {
+	float: left;
+	width: 35%;
+}
+
+.text_some_header {
+	font: 30px 'calibri', sans-serif;
+	color: #4E4E46;
+	margin: 10px 0 10px;
+	width: 75%;
+}
+
+.some_h2 {
+	padding: 80px 0 60px;
+}
+
+.video_li {
+	font: 16px "Open Sans", sans-serif;
+}
+
+.video_li:before {
+	content: '';
+	display: block;
+	width: 7px;
+	height: 12px;
+	background: url(../img/blue-check.png) no-repeat;
+	position: relative;
+	left: -22px;
+	bottom: -18px;
+	
+}
+
+.video_ul {
+	padding-left: 25px;
+	width: 76%;
+	position: relative;
+}
+
+.video_span {
+	font-weight: 700;
+}
+
+.video_block {
+	width: 60%;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.section14 {
+	background: url(../img/sixth-bg.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.contact_p {
+	font: 16px "Open Sans", sans-serif;
+}
+
+.call_us {
+	color: #5A5A52;
+	font: 16px "Open Sans", sans-serif;
+	width: 68%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.phone,
+.letter,
+.our_adress {
+	width: 28%;
+	margin: 0 auto;
+	float: left;
+	padding: 70px 0 60px;
+	margin-right: 4%;
+}
+
+.letter {
+	margin-right: 8%
+}
+
+.fix_fs_contavts {
+	font-weight: 600;
+}
+
+.nambers p span {
+	font-size: 13px;
+}
+
+.icon {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-right: 5%;
+}
+
+.icon1 {
+	background: url(../img/contact-phone.png) no-repeat; 
+}
+
+.icon2 {
+	background: url(../img/contact-letter.png) no-repeat; 
+}
+
+.icon3 {
+	background: url(../img/contact-address.png) no-repeat; 
+}
+
+.block_with_contacts {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.mail {
+	float: left;
+	width: 65%;
+}
+
+.numbers {
+	float: left;
+	width: 65%;	
+}
+
+.some_adress {
+	float: left;
+	width: 65%;
+}
+
+.section16 {
+	background: url(../img/map-footer-bg.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 393px;
+}
+
+.refer,
+.copy {
+	font: 14px "Open Sans", sans-serif;
+	color: #8C8C7D;
+	float: left;
+}
+
+.refer {
+	float: right;
+}
+
+.refer p a {
+	text-decoration: none;
+	color: #61A0BB;
+}
+
+.footer p {
+	line-height: 50px;
+}
+
+.with_four_block {
+	width: 100%;
+	margin: 0 auto; 
+}
+
+/*media*/
+
+@media screen and (min-width: 1680px) {
+	.section7 {
+		background-size: cover;
+		background-position: center;:  
+	}
+}
+
+/**/
+
+@media screen and (max-width: 1050px) {
+	.logo-header {
+		font-size: 32px;
+	}
+	.fix-list-item:before {
+		left: 603px;
+	}
+	.section7 {
+		background-size: cover;
+		background-position: center;
+	}
+	.three_p,
+	.second_block_text {
+		font-size: 15px;
+	}
+	.fix_gal:after {
+		left: 548px;
+	}
+	.fix_h2:after {
+		left: 595px;
+	}
+	.fix_four_p {
+		font-size: 13px;
+	}
+	.four-span {
+		font-size: 15px;
+	}
+	.text_some_header {
+		width: 70%;
+		font-size: 26px;
+		margin-top: 25px;
+	}
+	.video_li {
+		font-size: 15px;
+	}
+	.block_with_contacts {
+		width: 94%;
+	}
+	.header {
+		background-position: 60% 0;
+	}
+}
+
+@media screen and (max-width: 985px) {
+	.menu li a {
+		font-size: 12px;
+	}
+	.menu {
+		float: none;
+	}
+	.logo-header {
+		font-size: 28px;
+	}
+	.logo p {
+		font-size: 16px;
+	}
+	.logo {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.logo-header {
+		font-size: 24px;
+	}
+	.logo p {
+		font-size: 12px;
+	}
+	.logo {
+		margin-top: 18px;
+	}
+	.menu li a {
+		font-size: 10px;
+	}
+	.header {
+		background-size: cover;
+	}
+	.main-header {
+		font-size: 75px;
+	}
+	.somemenu  {
+	font-size: 14px;
+	}
+	.list-item8 {
+		margin-left: 10px;
+	}
+	.free-lesson {
+		font-size: 35px;
+		color: #333;
+	}
+	.input1 input, .input2 input, .input3 input, .input4 input {
+		width: 94%;
+		font-size: 14px;
+	}
+	.input4 input {
+		letter-spacing: 0.8px;
+		font-size: 12px;
+		padding: 17px;
+	}
+	.num h3 {
+		font-size: 50px;
+	}
+	.num p {
+		font-size: 14px;
+	}
+	.study {
+		font-size: 24px;
+	}
+	.study:before {
+		top: 16px;
+		left: 18%;
+	}
+	.study:after {
+		top: -15px;
+		left: 73%;
+	}
+	.study_text {
+		font-size: 14px;
+	}
+	.hall {
+		font-size: 24px;
+	}
+	.discription {
+		font-size: 10px;
+	}
+	.discription:last-child {
+		padding-bottom: 38px;
+	}
+	.list_item:before {
+		left: 23px;
+	}
+	.list-item8 { 
+	 	margin-left: 0;
+  }
+  .fix-list-item:before {
+  	left: 435px;
+  }
+  .text_header {
+  	font-size: 20px;
+  }
+  .text {
+  	height: 540px;
+  }
+	.four_block {
+		width: 23%;
+		margin-right: 2.5%;
+	}
+	.four_block:last-child {
+		margin-right: 0;
+	}
+	.four-bg1,
+	.four-bg2,
+	.four-bg3,
+	.four-bg4 {
+		width: 100%;
+	}
+	.four-p {
+		font-size: 12px;
+	}
+	.four-span {
+		font-size: 12px;
+	}
+	.some-header {
+		font-size: 14px;
+	}
+	.three_p, .second_block_text {
+		font-size: 12px;
+	}
+	.sl_image1 {
+		   background: url(../img/1slide.jpg) 0% 66%;
+		   background-size: cover;
+	}
+		.sl_image2 {
+		   background-size: cover;
+		   background: url(../img/2slide.jpg) 25% 12%;
+	}
+		.sl_image3 {
+			background-size: cover;
+		   background: url(../img/3slide.jpg) 36% 37%;
+	}
+		.sl_image4 {
+			background-size: cover;
+		   background: url(../img/4newslide.jpg) 62% 34%;
+	}
+		.sl_image5 {
+			background-size: cover;
+		   background: url(../img/5slide.jpg) -18% 19%;
+	}
+		.sl_image6 {
+			background-size: cover;
+		   background: url(../img/6slide.jpg) 40% 11%;
+	}
+}
+
+
