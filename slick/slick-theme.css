@@ -69,9 +69,9 @@
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
-
-    opacity: .75;
-    color: white;
+   
+    opacity: 1;
+    color: #fff;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -127,7 +127,7 @@
     display: block;
 
     width: 100%;
-    padding: 0;
+    padding: 0 0 20px;
     margin: 0px 0 30px 6px;
 
     list-style: none;
@@ -212,5 +212,14 @@
 .slick-dots li button:before {
         width: 6px;
         height: 6px;
+    }
+    .slick-prev {
+        z-index: 100;
+        left: 1px;
+        top: 39%;
+    }
+    .slick-next {
+        right: 3px;
+        top: 39%;
     }
 }

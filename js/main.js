@@ -1,5 +1,5 @@
 var options = {
-	offset: 600
+	offset: 800
 }
 
 var	nav = new Headhesive('.nav', options)
@@ -33,6 +33,7 @@ $(document).ready(function(){
    	
    	infinite: true,
    	dots: true,
+   	arrows: true,
    	centerMode: true,
  		slidesToShow: 5,
  		centerPadding: '60px',
@@ -60,7 +61,8 @@ $(document).ready(function(){
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        centerPadding: '25px'
       }
     }
   
