@@ -1190,12 +1190,43 @@ input {
 	margin: 0 auto; 
 }
 
+.headhesive {
+	position: fixed;
+	width: 100%;
+	transform: translateY(-100%);
+	transition: .7s;
+	background-color: #61A0BB;
+	z-index: 10000;
+}
+
+.headhesive--stick {
+	transform: translateY(0);
+}
+
+.menu-trigger {
+	display: none;
+}
+
+.menu-icon {
+	display: none;
+}
+
 /*media*/
 
 @media screen and (min-width: 1680px) {
 	.section7 {
 		background-size: cover;
 		background-position: center;:  
+	}
+	.menu li a {
+		font-size: 14px;
+	}
+}
+
+
+@media screen and (min-width: 2500) {
+	.menu li a  {
+		font-size: 20px;
 	}
 }
 
@@ -1393,6 +1424,130 @@ input {
 			background-size: cover;
 		   background: url(../img/6slide.jpg) 40% 11%;
 	}
+	.fix_four_p {
+		width: 100%;
+		font-size: 9px;
+	}
+	.fix-color-free-lesson {
+		color: #fff;
+	}
+	.text_left {
+		font-size: 14px;
+	}
+	.some_input4 input {
+		padding: 14px 0;
+		font-size: 14px;
+	}
+	.text_some_header {
+		font-size: 20px;
+	}
+	.video_li {
+		font-size: 13px;
+	}
+	.some_video {
+		padding-right: 85px;
+		padding-top: 10px;
+	}
+	.somelist1, .somelist2, .somelist3{
+		font-size: 12px;
+	}
+	.study_text {
+		font-size: 13px;
+	}
+	.sl_text_p {
+		font-size: 16px;
+	}
+	.nambers p span {
+		font-size: 10px;
+	}
+	.nambers p {
+		font-size: 12px;
+	}
+	.nambers {
+		padding-top: 10px;
+	}
+	.mail {
+		width: 61%;
+		padding-top: 10px;
+	}
+
+	.mail p {
+		font-size: 12px;
+	}
+	.some_adress {
+		width: 61%;
+		padding-top: 10px;
+	}
+	.some_adress p {
+		font-size: 12px;
+	}
+	.some_adress p span {
+		font-size: 9px;
+	}
+	.phone, .letter, .our_adress {
+		margin-right: 2%;
+	}	
+	.letter {
+		margin-right: 9%;
+	}
+	.phone {
+		margin-right: 3%;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+	.logo {
+		margin-top: 5px;
+		width: 100%
+	}
+	.logo p {
+		font-size: 14px;
+	}
+	.menu li {
+		display: block;
+		height: 45px;
+		border-bottom: 1px solid #DADADA;
+	}
+	.menu li:hover {
+		border-bottom: 1px solid #EEFFB7;
+	}
+	.menu li a {
+		height: 0;
+		line-height: 45px;
+	}
+	.logo {
+		padding: 0px 0 7px 0px;
+	}
+	.menu-icon {
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top: 10px;
+	left: 89%;
+	cursor: pointer;
+	color: #4E4E46;
+	}
+	.menu {
+		display: none;
+		margin-left: 0;
+		padding-top: 50px;
+		max-width: none;
+		min-width: 0;
+	}
+	.header {
+		overflow: hidden;
+	}
+	.nav {
+		background: #61A0BB;
+	}
+	.headhesive {
+		transform: translateX(-100%);
+	}
+	.headhesive--stick {
+	transform: translateX(0);
+
+}
+	
 }
 
 

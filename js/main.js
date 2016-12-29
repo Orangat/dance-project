@@ -1,4 +1,23 @@
+var options = {
+	offset: 600
+}
 
+var	nav = new Headhesive('.nav', options)
+
+// 
+
+$(document).ready(function() {
+
+	 $(".menu-icon, .menu li a").click(function () {
+      $(".menu").slideToggle(500);
+    });
+	 $(window).resize(function() {
+	 	if ($(window).width() > 720) {
+	 		$('.menu ').removeAttr('style')
+	 	}
+	 });
+
+});
  
   // $('.sl').slick({  /*указать класс собщим селектором слайдера*/
   // 	 infinite: true,
