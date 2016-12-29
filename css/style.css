@@ -1635,6 +1635,9 @@ input {
 		float: none;
 		width: 80%;
 		margin: 0 auto;
+		-webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.85);
+		-moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.85);
+		box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.85);
 	}
 	.young-group, .old-group {
 		padding-top: 40px;
@@ -1696,6 +1699,9 @@ input {
 	}
 	.four-bg1, .four-bg2, .four-bg3, .four-bg4 {
 		height: 293px;
+		-webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.85);
+		-moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.85);
+		box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.8);
 	}
 	.four_block {
 		width: 100%;
