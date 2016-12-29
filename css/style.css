@@ -1520,17 +1520,23 @@ input {
 		line-height: 45px;
 		font-size: 12px;
 	}
+	.sl_text_p {
+		font-size: 12px;
+	}
 	.logo {
 		padding: 0px 0 7px 0px;
 	}
 	.menu-icon {
-	display: block;
-	text-decoration: none;
-	position: absolute;
-	top: 10px;
-	left: 89%;
-	cursor: pointer;
-	color: #4E4E46;
+		display: block;
+		text-decoration: none;
+		position: absolute;
+		top: 10px;
+		left: 89%;
+		cursor: pointer;
+		color: #4E4E46;
+	}
+	.header {
+		background-position: 79% 0;
 	}
 	.menu {
 		display: none;
@@ -1550,6 +1556,8 @@ input {
 	}
 	.main-header {
 		font-size: 50px;
+		color: #eee;
+		text-align: center;
 	}
 
 	.somemenu { 
@@ -1557,10 +1565,14 @@ input {
 		margin-left: 15px;
 	}
 	.free-lesson {
-		font-size: 30px;
+		font-size: 28px;
 		width: 100%;
 		color: #eee;
 		padding: 103px 0 47px;
+		margin-left: 0;
+	}
+	.list {
+		color: #eee;
 	}
 	.list:before {
 		top: 13px;
@@ -1568,6 +1580,9 @@ input {
 	}
 	.some__list2:before {
 		top: 13px;
+	}
+	.somemenu {
+		width: 57%;
 	}
 	.input1, .input2, .input3, .input4 {
 		width: 100%;
@@ -1586,23 +1601,29 @@ input {
 		font-size: 8px;
 	}
 	.study {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.study:before {
 		width: 40px;
-		top: 13px;
-    left: 0%;
+		top: 12px;
+    left: -4%;
 	}
 	.study:after {
 		width: 40px;
-		top: -13px;
-    left: 88%;
+		top: -12px;
+    left: 90%;
+	}
+	.fix_gal:before {
+		left: 19%;
+	}
+	.fix_gal:after {
+		left: 66%;
 	}
 	.hall {
 		font-size: 20px;
 	}
 	.text {
-		height: 558px;
+		height: 607px;
 		float: none;
 		width: 100%;
 	}
@@ -1617,7 +1638,8 @@ input {
 	}
 	.young-group, .old-group {
 		padding-top: 40px;
-		font-size: 20px
+		font-size: 20px;
+		width: 69%;
 	}
 	.main {
 		overflow: hidden;
@@ -1627,11 +1649,12 @@ input {
 		padding-top: 50px;
 	}
 	.buy {
+		width: 55%;
 		padding-bottom: 20px;
 		margin: 0 auto -8px;
 	}
 	.times {
-		width: 54%;
+		width: 57%;
 		font-size: 16px
 	}
 	.white {
@@ -1679,10 +1702,10 @@ input {
 	}
 	.four-p {
 		text-align: center;
-		font-size: 100%;
+		font-size: 70%;
 	}
 	.four-span {
-		font-size: 105%;
+		font-size: 129%;
 	}
 	.fix-input p {
 		padding: 10px 0;
@@ -1750,6 +1773,8 @@ input {
 	}
 	.answer_p {
 		width: 100%;
+		font-size: 12px;
+		padding-top: 12px;
 	}
 	.answer {
 		padding: 0;
@@ -1811,7 +1836,7 @@ input {
 		margin-top: 10px;
 	}
 	.phone, .letter, .our_adress {
-		width: 65%;
+		width: 77%;
 		float: none;
 		padding: 0;
 		overflow: hidden;
@@ -1830,9 +1855,13 @@ input {
 	}
 	.refer, .copy {
 		float: none;
+		font-size: 12px;
 	}
 	.footer p {
 		text-align: center;
+	}
+	.fix_study {
+		width: 53%;
 	}
 }
 
