@@ -1278,6 +1278,10 @@ input {
     transition: .5s;
 }
 
+.some-button {
+	text-decoration: none;
+}
+
 
 /*media*/
 
@@ -1932,6 +1936,12 @@ input {
 	}
 	.fix_study {
 		width: 53%;
+	}
+	.social_network {
+		width: 100%;
+	}
+	.buy {
+		width: 125px;
 	}
 }
 

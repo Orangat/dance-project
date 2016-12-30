@@ -6,24 +6,7 @@ var	nav = new Headhesive('.nav', options)
 
 // 
 
-$(document).ready(function() {
 
-   $(window).resize(function() {
-    if ($(window).width() < 720) {
-       $(".menu-icon, .link").click(function () {
-      $(".menu").slideToggle(500);
-    });
-    }
-   });
-
-	
-	 $(window).resize(function() {
-	 	if ($(window).width() > 720) {
-	 		$('.menu ').removeAttr('style')
-	 	}
-	 });
-
-});
  
 
 // 
@@ -112,7 +95,28 @@ $(document).ready(function(){
   $(".text-trigger5").click(function () {
       $(".some-div5").slideToggle(400);
     });
+// 
+    $("nav ul li").click(function () {
+      $("nav ul").slideToggle(400);
+    });
+// 
 
 
 
 // 
+
+$(document).ready(function() {
+
+
+
+
+  $('.menu-icon').click(function() {
+    $('nav ul').slideToggle(500);
+  });//end slide toggle
+  
+  $(window).resize(function() {   
+    if (  $(window).width() > 760 ) {     
+      $('nav ul').removeAttr('style');
+     }
+  });//end resize
+});//end ready
