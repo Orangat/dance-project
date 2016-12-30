@@ -8,9 +8,15 @@ var	nav = new Headhesive('.nav', options)
 
 $(document).ready(function() {
 
-	 $(".menu-icon, .menu li a").click(function () {
+   $(window).resize(function() {
+    if ($(window).width() < 720) {
+       $(".menu-icon, .link").click(function () {
       $(".menu").slideToggle(500);
     });
+    }
+   });
+
+	
 	 $(window).resize(function() {
 	 	if ($(window).width() > 720) {
 	 		$('.menu ').removeAttr('style')
@@ -19,6 +25,8 @@ $(document).ready(function() {
 
 });
  
+
+// 
   // $('.sl').slick({  /*указать класс собщим селектором слайдера*/
   // 	 infinite: true,
   // 	 slidesToShow: 3,
