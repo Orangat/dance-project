@@ -1943,6 +1943,12 @@ input {
 	.buy {
 		width: 125px;
 	}
+	.map {
+		height: 400px;
+	}
+	.fix_padding_map {
+		padding: 0 35px;
+	}
 }
 
 
