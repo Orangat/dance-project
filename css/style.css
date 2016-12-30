@@ -1199,7 +1199,7 @@ input {
 	width: 100%;
 	transform: translateY(-100%);
 	transition: .7s;
-	background-color: #61A0BB;
+	background: rgba(255,255,255,.9);
 	z-index: 10000;
 }
 
