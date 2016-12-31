@@ -1672,14 +1672,14 @@ input {
 		font-size: 18px;
 	}
 	.study:before {
-		width: 40px;
-		top: 12px;
-    left: -4%;
+		width: 30px;
+		top: 11px;
+    left: -7%;
 	}
 	.study:after {
-		width: 40px;
+		width: 30px;
 		top: -12px;
-    left: 90%;
+    left: 96%;
 	}
 	.fix_gal:before {
 		left: 19%;
@@ -1745,10 +1745,16 @@ input {
 		font-size: 14px;
 	}
 	.fix-list-item:before {
-		left: 28px;
+		left: 20px;
 	}
 	.fix-text-float {
-		height: 436px;
+		height: 500px;
+	}
+	.fix_line:after {
+		left: 91%;
+	}
+	.fix_line:before {
+		left: -2%;
 	}
 	.section4 {
 		padding-top: 100px;
