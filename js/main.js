@@ -96,18 +96,17 @@ $(document).ready(function(){
       $(".some-div5").slideToggle(400);
     });
 // 
-    $("nav ul li").click(function () {
-      $("nav ul").slideToggle(400);
-    });
-// 
-
-
+//     $("nav ul li").click(function () {
+//       $("nav ul").slideToggle(400);
+//     });
+// // 
+   
 
 // 
 
 $(document).ready(function() {
 
-
+  
 
 
   $('.menu-icon').click(function() {
@@ -120,3 +119,5 @@ $(document).ready(function() {
      }
   });//end resize
 });//end ready
+
+
