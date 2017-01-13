@@ -188,7 +188,7 @@
     width: 8px;
     height: 8px;
 
-    content: '•';
+    content: '';
     text-align: center;
 
     opacity: 1;

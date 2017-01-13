@@ -892,6 +892,27 @@ input {
 	background: url(../img/women-for-slide.png);
 }
 
+.julia {
+	background: url(../img/julia.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	border: 2px solid #9AB6B9;
+}
+
+.maria {
+	background: url(../img/maria.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	border: 2px solid #9AB6B9;
+}
+
+.anastasia {
+	background: url(../img/anastasia.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	border: 2px solid #9AB6B9;
+}
+
 .sl_span {
 	font:700 16px "Open Sans", sans-serif;
 	text-align: center;
